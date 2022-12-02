@@ -8,4 +8,4 @@ elixir solutions for advent of code 2022
 * [2021](https://github.com/thth/aoc_2021)
 * __2022__
 
-![piyopiyo](https://user-images.githubusercontent.com/7574985/205229854-7457c1f5-0b36-4570-b428-2a14a71f36f8.png)
+![piyopiyo](https://user-images.githubusercontent.com/7574985/205231842-dd83a5b3-ea9b-4f33-878b-2be6653f7e3e.png)
