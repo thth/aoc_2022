@@ -39,7 +39,7 @@ defmodule Eight do
 
   defp visible(trees) do
     Enum.reduce(trees, MapSet.new(), fn row, acc ->
-      Enum.reduce(row, {acc, 0}, fn
+      Enum.reduce(row, {acc, -1}, fn
         {pos, h}, {a, max_h} when h > max_h -> {MapSet.put(a, pos), h}
         _, a -> a
       end)
