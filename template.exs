@@ -1,7 +1,7 @@
 File.mkdir_p!("input")
 File.touch("README.md")
 File.touch("input/_test.txt")
-File.write(".gitignore", ".gitignore\ninput/_test.txt", [:exclusive])
+File.write(".gitignore", ".gitignore\ninput/_test.txt\nerl_crash.dump", [:exclusive])
 
 ~w[
   One Two Three Four Five Six Seven Eight Nine Ten Eleven Twelve
